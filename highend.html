@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>High End</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+    <body>
+        <div id="wholediv">
+        <header>
+       <div id="name">Fashion News in Motions <input type="text" name="search" placeholder="Search.." style= float:right></div>
+    <div nav id="nav_wrapper2"><br>
+    		 
+    		<ul>
+				<li> <a href="Index.html"> Home </a></li>
+                <li> <a href="highend.html"> High End  </a></li>
+                <li> <a href="everyday.html"> Everyday Wear </a></li>
+                <li> <a href="raceday.html"> Raceday </a></li>
+              	
+                
+            </ul>
+    </div>
+        </header>
+        
+    <div class="hf">
+        <h1>Are you 'redy'</h1><p>After new York fashion week it was clear that a big colour for the season red, also seen in milan fashion week. Max Mara kicked off the week with a strong showing of four head-to-toe crimson looks.</p>
+        
+    
+        <img class="mySlides" src="img/red.jpg" style="float:middle; width:100%; margin-right:1%; margin-bottom:0.5em;">
+        <img class="mySlides" src="img/metalic.jpg"style="float:middle; width:100%; margin-right:1%; margin-bottom:0.5em;">
+        <img class="mySlides" src="img/bold.jpg"style="float:middle; width:100%; margin-right:1%; margin-bottom:0.5em;">
+            <button class="left-button left-display-left" onclick="plusDivs(-1)"style="float:; width:15%; height:10%; margin-right:1%; margin-bottom:0.5em;float: left;position: absolute;left: 0%;top: 150%;max-width: 750px;">&#10094;</button>
+
+            <button class="right-button right-display-right" onclick="plusDivs(+1)"style="float:; width:15%; height:10%; margin-right:1%; margin-bottom:0.5em;float: left; position: absolute;right: 0%;top: 150%;max-width: 750px;">&#10095;</button>
+            <p style="clear: both;">
+            
+                <h2>Metalic</h2>
+              <p2><img id="metalic" src="img/metalic.jpg" style="float:left; width:40%; height: 60%;margin-right:1%; margin-bottom:0.5em;"> The year of 2017 has brought new, daring styles that are making big statements. The high end styles influence everday styles by encorperating them in small doses. The metalic look stands out a lot so they use very simple make-up so that the outfit is not so over powering. There is a balance that is made on the high end side of fashion although they can take it too far sometimes. </p2>  
+        <p style="clear: both;">
+            
+            <h3>Big and Bold</h3>
+        <p3><img src="img/bold.jpg"style="float:right; width:40%; height: 60%;margin-right:1%; margin-bottom:0.5em;">
+        High end fashion use bold colours, with different textures such as fur. As you can see in this image the colourful pants is accompanied by a fur jacket once again making a statement. Its a boho look that can also be worn everyday.Once again little colours are used in the make-up. This really brings out the colour in the clothes therefore making the clothes stand out.</p3>
+                     
+            
+            </div>       
+           
+    <footer>&copy; 2017 Nicole Mason,Images from <a href="https://pixabay.com/en/photos/?q=fashion&image_type=&cat=&min_width=&min_height">pixabay.com</a> and Nicole Mason <img src="img/icon-1978126_1280.png"style="float:middle; width:100%; margin-right:1%; margin-bottom:0.5em;"></footer>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+        </script>
+        
+            </body>

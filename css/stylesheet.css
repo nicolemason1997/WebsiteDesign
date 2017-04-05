@@ -1,0 +1,144 @@
+body{
+    background-image: url(../img/background1.png);
+    background-size:cover;
+    display: flex;}
+nav{
+    width: auto;
+    margin:auto;
+}
+#nav_wrapper1 {
+	height: 100px;
+	width:100%;
+	background: whitesmoke;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	opacity: 0.7;
+	filter: alpha (opacity=70);
+	}
+#nav_wrapper1 ul li {
+	list-style: none;
+	display:inline;
+	font-weight: bold;
+	padding: 15px;
+    align-items: center;
+    text-align: center;
+    width:100%
+}
+
+
+#nav_wrapper1 a{
+	color: black;
+	text-decoration:underline;
+	padding: auto;
+    align-content: center;
+    width:100%;
+    border: none;
+}
+#nav_wrapper1 ul li:hover{
+	background:#FFE410 ;
+	transition:all 0.45s;
+	opacity: 0.9;
+    filter: alpha (opacity=90);
+    text-align: center;}
+
+#nav_wrapper2 {
+	height: 100px;
+	width:100%;
+	background: whitesmoke;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	opacity: 0.7;
+	filter: alpha (opacity=70);
+	}
+#nav_wrapper2 ul li {
+	list-style: none;
+	display: inline;
+	font-weight: bold;
+    padding: 10px;
+    padding-bottom: 8px;
+    align-items: center;
+    text-align: center;
+    width:auto;
+    
+}
+#nav_wrapper2 ul{
+     
+    width:auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#nav_wrapper2 a{
+	color: black;
+	text-decoration:underline;
+	padding: auto;
+    align-content: center;
+    width:100%;
+    border: none;
+}
+#nav_wrapper2 ul li:hover{
+	background:#FFE410 ;
+	transition:all 0.45s;
+	opacity: 0.9;
+    filter: alpha (opacity=90);
+    align-content: center;}
+.hf{
+    background-color: floralwhite;
+    width:auto;
+    height: 100%;
+    text-align: center;
+    padding:20px;
+    }
+p.hf{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+img.hg {
+    max-width:800px;
+    height: auto;
+    width: auto\9;
+    margin-left: auto;
+    object-position: center;
+    float:center; 
+    width:30%; 
+    margin-right:1%; 
+    margin-bottom:0.5em;
+}
+#name {
+    font-family: lato;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+p2{
+    float:right; 
+    width:auto; 
+    margin-right:1%; 
+    margin-bottom:0.5em;
+    padding: 20px;
+    font-size: 25px
+}
+p3,p4{
+    float:right; 
+    width:auto; 
+    margin-right:1%; 
+    margin-bottom:0.5em;
+    padding: 20px;
+    font-size: 25px 
+}
+h1,h2,h3,h4{
+    font-size: 50px
+}
+footer{
+    height: 220px;
+	width:100%;
+	background: whitesmoke;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	opacity: 0.7;
+	filter: alpha (opacity=70);
+}
+

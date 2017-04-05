@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Race Day</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+    <body>
+        <div id="wholediv">
+        <header>
+       <div id="name">Fashion News in Motions <input type="text" name="search" placeholder="Search.." style= float:right></div>
+    <div nav id="nav_wrapper2"><br>
+    		 
+    		<ul>
+				<li> <a href="Index.html"> Home </a></li>
+                <li> <a href="highend.html"> High End  </a></li>
+                <li> <a href="everyday.html"> Everyday Wear </a></li>
+                <li> <a href="photos.html"> Raceday </a></li>
+              	
+                
+            </ul>
+    </div>
+        </header>
+        
+    <div class="hf">
+        <h1>Race Day</h1><p>Race Day is a chance for students to dress up in they're favourite dress, suit or two-piece. The students wear a variety of styles of dresses, between colour and shape.</p>
+        
+    
+        <img class="mySlides" src="img/rdblue.jpg" style="float:middle; width:100%; margin-right:1%; margin-bottom:0.5em;">
+        <img class="mySlides" src="img/rddress.jpg"style="float:middle; width:100%; margin-right:1%; margin-bottom:0.5em;">
+        <img class="mySlides" src="img/rdhat.jpg"style="float:middle; width:100%; margin-right:1%; margin-bottom:0.5em;">
+            <button class="left-button left-display-left" onclick="plusDivs(-1)"style="float:; width:15%; height:10%; margin-right:1%; margin-bottom:0.5em;float: left;position: absolute;left: 0%;top: 150%;max-width: 750px;">&#10094;</button>
+
+            <button class="right-button right-display-right" onclick="plusDivs(+1)"style="float:; width:15%; height:10%; margin-right:1%; margin-bottom:0.5em;float: left; position: absolute;right: 0%;top: 150%;max-width: 750px;">&#10095;</button>
+            <p style="clear: both;">
+            
+                <h2>Overall</h2>
+        <p2>The dresses usually are bright bold colours as seen in the first image. Students usually accompany the dress with accessories such as big hats and head pieces(image 1+2).The style most often worn at the races can be seen in image 3. The outfits at the races are always over the top flashy and stunning. Race Day is where most of the fashion of the year can be seen especially the spring collection.  </p2>
+              
+                     
+            
+            </div>       
+           
+    <footer>&copy; 2017 Nicole Mason,Images from <a href="https://pixabay.com/en/photos/?q=fashion&image_type=&cat=&min_width=&min_height">pixabay.com</a> and Nicole Mason <img src="img/icon-1978126_1280.png"style="float:middle; width:100%; margin-right:1%; margin-bottom:0.5em;"></footer>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+        </script>
+        
+            </body>
